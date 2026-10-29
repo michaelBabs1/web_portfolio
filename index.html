@@ -12,16 +12,6 @@
 </head>
 <body>
 
-<!--
-  HOW TO EDIT THIS PAGE
-  - Everything you see on the site is written below. Change the text between the tags.
-  - To add a project, copy one whole <article> ... </article> and paste it under the last one.
-  - To remove a section, delete it from <section ...> to </section>. Its menu link goes too.
-  - Search this file for "EDIT" to find every place your own details or links go.
-  - PROJECTS GITHUB: your projects live on your other GitHub account. Replace
-    YOUR-PROJECTS-ACCOUNT everywhere in this file with that account's username.
--->
-
 <header class="nav">
   <div class="wrap">
     <a class="logo" href="#home"><b>~/</b>michaelbaba</a>
@@ -60,7 +50,12 @@
   <section id="about" data-menu="About"><div class="wrap">
     <p class="prompt"><span>~/</span>about</p>
     <h2>About me</h2>
-    <div class="about">
+    <div class="about with-photo">
+        <figure class="photo">
+          <img src="C:\Users\micha\OneDrive\Desktop\mileswebsite\images\miles.png" alt="Michael Baba" loading="lazy"
+               onerror="this.parentNode.classList.add('empty')">
+          <span class="initials" aria-hidden="true">MB</span>
+        </figure>
       <div class="bio">
         <div style="display:grid;gap:14px">
           <p>Hi, I'm Michael, a data analyst, animator and Computer Science student who enjoys technology, creativity and solving problems.</p>
@@ -92,6 +87,23 @@
     </div>
   </div></section>
 
+
+      <div class="edu">
+        <div class="card">
+          <span class="when">2026 – present</span>
+          <h3>B.Sc. Computer Science</h3>
+          <span class="muted">Miva Open University</span>
+          <span class="muted" style="font-size:.9rem">100 Level</span>
+        </div>
+        <div class="card">
+          <span class="when">2023</span>
+          <h3>Junior Data Analytics Certification</h3>
+          <span class="muted">InstinctHub</span>
+        </div>
+      </div>
+    </div>
+  </div></section>
+
   <!-- ===================================================== SKILLS -->
   <section id="skills" data-menu="Skills"><div class="wrap">
     <p class="prompt"><span>~/</span>skills</p>
@@ -101,7 +113,7 @@
         <div class="tags"><span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">NumPy</span><span class="tag">Excel</span></div>
       </div>
       <div class="card"><h3>Visualization</h3>
-        <div class="tags"><span class="tag">Seaborn</span><span class="tag">Matplotlib</span><span class="tag">Dashboards</span></div>
+        <div class="tags"><span class="tag">Seaborn</span><span class="tag">Matplotlib</span><span class="tag">Power BI</span><span class="tag">Tableau</span><span class="tag">Dashboards</span></div>
       </div>
       <div class="card"><h3>Databases</h3>
         <div class="tags"><span class="tag">SQL</span><span class="tag">MySQL</span></div>
@@ -117,10 +129,6 @@
     <p class="prompt"><span>~/</span>projects</p>
     <h2>Things I've built</h2>
     <div class="grid projects">
-
-      <!-- PROJECT: copy from <article> to </article> to add another.
-           EDIT: the title, the sentence, the tags, and the repository name in the link.
-           No live demo or video? Leave only the Code link. -->
       <article class="card project">
         <div class="top"><span class="cat">Dashboard</span></div>
         <h3>Project title</h3>
